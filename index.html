@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Counting Domino Tilings - Demo</title>
+    <script type="text/javascript" src="require.js"></script>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Counting Domino Tilings - Demo</h1>
+
+    <span id="diag1"><svg></svg></span>
+    <p>This interactive math visualization is taken from an article currently in progress. It serves as a (regrettably out-of-context) demonstration of the "pinning" layout system for D3, as well as some other technical components.</p>
+
+    <script src='dominoes.js' type='text/javascript'> </script>
+    <svg>
+      <defs>
+	<pattern id="hatch00" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10">
+	  <g style="fill:none; stroke:blue; stroke-width:2">
+	    <path d="M-1,-1 l11,11"/>
+	    <path d="M11,-1 l-11,11"/>
+	  </g>
+	</pattern>
+      </defs>
+    </svg>
+  </body>
+</html>
